@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "email": "joao@example.com",
+      "avatar": "https://ui-avatars.com/api/?name=João+Silva&background=0D8ABC&color=fff",
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Maria Santos",
+      "email": "maria@example.com",
+      "avatar": "https://ui-avatars.com/api/?name=Maria+Santos&background=FF6B6B&color=fff",
+      "createdAt": "2024-01-16T14:20:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Pedro Costa",
+      "email": "pedro@example.com",
+      "avatar": "https://ui-avatars.com/api/?name=Pedro+Costa&background=4ECDC4&color=fff",
+      "createdAt": "2024-01-17T09:15:00Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Primeiro Post",
+      "content": "Este é o conteúdo do primeiro post. Aqui você pode escrever sobre qualquer coisa que desejar.",
+      "userId": 1,
+      "likes": 15,
+      "createdAt": "2024-01-18T08:00:00Z",
+      "updatedAt": "2024-01-18T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Aprendendo React Native",
+      "content": "Hoje estou estudando React Native e descobrindo como criar aplicativos móveis incríveis!",
+      "userId": 2,
+      "likes": 23,
+      "createdAt": "2024-01-19T12:30:00Z",
+      "updatedAt": "2024-01-19T12:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "MVVM Architecture",
+      "content": "A arquitetura MVVM é muito útil para organizar o código e separar as responsabilidades.",
+      "userId": 3,
+      "likes": 8,
+      "createdAt": "2024-01-20T16:45:00Z",
+      "updatedAt": "2024-01-20T16:45:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "price": 999.99,
+      "description": "O mais novo smartphone da Apple com recursos avançados",
+      "category": "smartphones",
+      "image": "https://via.placeholder.com/300x300/007ACC/ffffff?text=iPhone+15",
+      "inStock": true,
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro",
+      "price": 1999.99,
+      "description": "Laptop profissional para desenvolvedores e criadores",
+      "category": "laptops",
+      "image": "https://via.placeholder.com/300x300/FF6B6B/ffffff?text=MacBook+Pro",
+      "inStock": true,
+      "stock": 25
+    },
+    {
+      "id": 3,
+      "name": "iPad Air",
+      "price": 599.99,
+      "description": "Tablet versátil para trabalho e entretenimento",
+      "category": "tablets",
+      "image": "https://via.placeholder.com/300x300/4ECDC4/ffffff?text=iPad+Air",
+      "inStock": false,
+      "stock": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "smartphones",
+      "displayName": "Smartphones",
+      "icon": "phone"
+    },
+    {
+      "id": 2,
+      "name": "laptops",
+      "displayName": "Laptops",
+      "icon": "laptop"
+    },
+    {
+      "id": 3,
+      "name": "tablets",
+      "displayName": "Tablets",
+      "icon": "tablet"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "content": "Ótimo post! Muito interessante.",
+      "createdAt": "2024-01-18T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 3,
+      "content": "Concordo completamente com você.",
+      "createdAt": "2024-01-18T11:15:00Z"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "userId": 1,
+      "content": "React Native é realmente incrível!",
+      "createdAt": "2024-01-19T14:20:00Z"
+    }
+  ]
+}
